@@ -46,7 +46,7 @@ Bucket policy
         {
             "Effect": "Allow",
             "Principal": {
-                "Service": "lambda.amazonaws.com"
+                "AWS": "arn:aws:iam::318072585201:role/aws_lambda_ebs_verifier"
             },
             "Action": "s3:PutObject",
             "Resource": [
