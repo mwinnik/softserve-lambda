@@ -46,7 +46,7 @@ Bucket policy
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::318072585201:role/aws_lambda_ebs_verifier"
+                "AWS": "arn:aws:iam::11111111111:role/aws_lambda_ebs_verifier"
             },
             "Action": "s3:PutObject",
             "Resource": [
@@ -57,7 +57,7 @@ Bucket policy
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::318072585201:role/AWS-aws102464-Admin"
+                "AWS": "arn:aws:iam::11111111111:role/AWS-aws102464-Admin"
             },
             "Action": "s3:*",
             "Resource": [
